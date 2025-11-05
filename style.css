@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f5;
+    color: #4b1e3f;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffd6e0;
+    padding: 20px;
+    border-bottom: 2px solid #f4a6b5;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #b30059;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ffb6c1;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ff85a2;
+}
+
+.main-photo {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ffb6c1;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.reasons {
+    margin-top: 20px;
+}
+
+#reasonInput {
+    padding: 8px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #f4a6b5;
+}
+
+button {
+    background-color: #ff99b9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6f91;
+}
+
+#reasonList {
+    list-style: none;
+    padding: 0;
+}
+
+#reasonList li {
+    background: #ffe4ec;
+    margin: 5px auto;
+    padding: 8px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.letter {
+    width: 70%;
+    margin: 30px auto;
+    background: #fffafc;
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 1.6;
+    box-shadow: 0 0 10px #ffd6e0;
+}
+
+.back {
+    display: block;
+    margin: 20px;
+    color: #b30059;
+    text-decoration: none;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
